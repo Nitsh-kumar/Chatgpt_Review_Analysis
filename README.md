@@ -1,4 +1,31 @@
-#📊 ChatGPT Review Analysis
+
+# ChatGPT Review Analysis
+
+This project focuses on analyzing customer reviews of ChatGPT to understand overall user sentiment, satisfaction trends, and key feedback points. Through sentiment analysis, keyword extraction, and comprehensive visualizations, the analysis identifies what users appreciate most and where improvements may be needed.
+
+
+## Objectives
+* Perform Sentiment Analysis to categorize reviews as positive, neutral, or negative.
+* Measure Subjectivity to understand the strength of user opinions.
+* Extract Key Features most commonly praised or criticized.
+* Visualize Insights to make feedback trends easily understandable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ChatGPT Review Analysis
 
 📌 Project Overview
 This project focuses on analyzing customer reviews of ChatGPT to understand overall user sentiment, satisfaction trends, and key feedback points. Through sentiment analysis, keyword extraction, and comprehensive visualizations, the analysis identifies what users appreciate most and where improvements may be needed.
