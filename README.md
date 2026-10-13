@@ -1,29 +1,34 @@
-#  ChatGPT Review Analysis
+# ChatGPT Review Analysis
 
-##  Project Overview
-This project focuses on analyzing customer reviews of ChatGPT to understand user sentiment and satisfaction trends.
+An exploratory NLP notebook for studying sentiment and subjectivity in user reviews.
 
-##  Objectives
-- Perform Sentiment Analysis
-- Measure Subjectivity
-- Extract Key Features
-- Visualize Insights
+**Status:** analysis exercise. TextBlob scores are heuristic outputs; this project is not a trained or validated sentiment classifier.
 
-##  Project Workflow
-1. Problem Framing
-2. Data Preparation
-3. EDA
-4. Sentiment & Text Analysis
-5. Insights & Recommendations
+## Workflow and files
 
-##  Tech Stack
-- Python
-- Pandas
-- Matplotlib
-- TextBlob
-- Scikit-learn
+- [Chatgpt_Customer_Reviews.ipynb](Chatgpt_Customer_Reviews.ipynb): data preparation, sentiment/subjectivity scoring, and plots.
+- [chatgpt_reviews.csv](chatgpt_reviews.csv): included dataset file.
 
-##  Project Structure
-Scikit-learn - Text feature extraction
-WordCloud - Keyword visualization
+The notebook currently loads a CSV from a Statso URL rather than the checked-in CSV. Record and reconcile the exact input snapshot before comparing results. Dataset rights and representativeness have not been established.
 
+## Environment
+
+The notebook imports pandas, TextBlob, Swifter, Matplotlib, and Seaborn. It contains a Swifter installation cell but no shared pinned environment.
+
+For a local exploratory session, create an isolated environment and install those dependencies plus Jupyter. Open the notebook, review the data-source cell, and run from a fresh kernel. Provider keys are not required by the reviewed notebook.
+
+## Interpretation
+
+TextBlob polarity ranges from negative to positive. Subjectivity ranges from more objective to more subjective; it does not mean positive/negative sentiment or user satisfaction.
+
+The current subjectivity labeling needs correction. Plot semantics and preprocessing should also be checked before publishing conclusions. Do not infer overall user satisfaction, causal effects, or model quality from these reviews alone.
+
+## Reproducibility checklist
+
+Record the dataset source/version, row counts before and after cleaning, missing-value handling, score definitions, and plot denominators. Manually inspect a sample of labeled reviews and report observed failure cases.
+
+See [project status](docs/PROJECT_STATUS.md).
+
+## Validation
+
+This documentation was checked against repository files on 13 October 2026. Notebooks, application runs, refreshes, and test suites were not executed during this documentation pass. Saved outputs are historical evidence, not a fresh run.
